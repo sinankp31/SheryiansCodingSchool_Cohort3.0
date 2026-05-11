@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #7a1d73 0%, #13003f 45%, #050018 100%);
+  color: #ffffff;
+  padding: 60px 80px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.sectionHeader h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.sectionHeader a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px 42px;
+}
+
+.artCard {
+  background: rgba(133, 104, 180, 0.65);
+  border-radius: 30px;
+  padding: 18px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  width:250px;
+  height: 380px;
+}
+
+.artImage {
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 22px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.artImage img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  display: block;
+}
+
+.artMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.artMeta h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.bidBtn {
+  width: 100%;
+  height: 52px;
+  border: 2px solid #c870ff;
+  border-radius: 999px;
+  background: transparent;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
