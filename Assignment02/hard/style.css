@@ -58,6 +58,7 @@ body{
 #heroSection{
     display:flex;
     justify-content: space-between;
+    position:relative;
 }
 
 #leftPart{
@@ -161,13 +162,21 @@ body{
     gap:5px;
 }
 
+#jacketContainer{
+     filter: drop-shadow(0 50px 80px rgba(0, 0, 0, 0.40));
+}
+
+#rightPart{
+    padding-right:60px;
+    padding-top:80px;
+}
+
 #sizeHeading{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     color: #111111;
     text-align: center;
-    padding-top:100px;
-    padding-bottom:20px;
+    padding-bottom:5px;
 }
 
 #sizeOptions{
@@ -175,9 +184,10 @@ body{
   text-align: center;
 }
 
-.sizeBtns{
+#sizeBtns{
     display:flex;
-    justify-content: space-between;
+    gap:10px;
+    padding-bottom:10px;
 }
 
 .sizeBtn{
@@ -188,7 +198,7 @@ body{
   background: #EFE8DF;
   color: #111111;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 
@@ -196,6 +206,196 @@ body{
   background: #F97316;
   color: #FFFFFF;
 }
+
+#colorSection {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+#colorTitle {
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.colorOptions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.colorCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height:auto;
+}
+
+.colorCard img {
+    width: 60px;
+    height: 60px;
+    padding-bottom:5px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: #cac7c2;
+
+}
+
+.colorCard span {
+    color: #333;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+#active {
+    border-color: #F97316;
+    background-color: #fcfcfc;
+}
+
+#addToBtns {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+}
+
+#wishlistBtn {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #E6DED4;
+  border-radius: 9999px;
+  background: transparent;
+  color: #111111;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: pointer;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#bagBtn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 9999px;
+  background: #F97316;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 12px 30px rgba(249, 115, 22, 0.25);
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#bottomSection {
+  position:absolute;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 42%;
+  padding-left:10px;
+  background: #f3eee8;
+  border-radius: 32px;
+  margin-left:50px;
+}
+
+#imageFeatureSection{
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.featureImageCard{
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featureImageCard img{
+    width: 150px;
+    height: 180px;
+    border-radius: 30px;
+    object-fit: cover;
+    padding:10px;
+}
+
+.featureCard{
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.featureCard h5{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.featureCard p{
+    font-size: 10px;
+    font-weight: 500;
+    color:#6b6b6b;
+}
+
+#imageFeatureSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageFeatureCard{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#featureSection{
+    position:absolute;
+    margin-top:350px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    background: #f3eee8;
+    border-radius: 32px;
+    border-top: 1px solid #ded9d9;
+}
+
+.miniFeatureCard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    padding: 24px;
+    gap:20px;
+}
+
+.miniFeatureCard h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+.miniFeatureCard p{
+    font-size: 13px;
+    line-height: 1.6;
+    color: #6b6b6b;
+}
+
+
+
 
 
 
