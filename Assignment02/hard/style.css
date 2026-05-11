@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #F7F3EE;
+    font-family: "Poppins", sans-serif;
+}
+
+#navBar{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 48px;
+    border-bottom: 1px solid #E6DED4;
+    border-radius: 20px;
+    
+}
+
+.container{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#logo span{
+    color: #F97316;
+}
+
+#navBar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    list-style-type: none;
+}
+
+#navBar ul li{
+    font-weight: 500;
+    color: #333232;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#heroSection{
+    display:flex;
+    justify-content: space-between;
+}
+
+#leftPart{
+    padding-left:50px;
+    padding-top:50px;
+}
+
+#leftPart span{
+    color:#F97316;
+    font-weight: 600;
+}
+
+#leftPart h1{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#leftPart h3{
+    padding-bottom:10px;
+    font-size:25px;
+    font-weight: 500;
+}
+
+.divider {
+  width: 200px;
+  max-width: 280px; 
+  height: 1.5px;
+  background: #E6DED4;
+}
+
+#leftPart h5{
+    padding-top:20px;
+    font-size:15px;
+    font-weight: 600;
+}
+
+#leftPart p{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:10px;
+    font-weight: 500;
+    color:#333232;
+    line-height: 15px;
+}
+
+#readMoreText {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111111;
+  padding-bottom:20px;
+}
+
+#infoItem {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111111;
+  padding-bottom:20px;
+}
+
+#materialAndCareBtn, #shippingAndReturnsBtn {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  width:200px;
+  padding-top:15px;
+  padding-bottom:15px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+}
+
+#materialAndCareBtn span, #shippingAndReturnsBtn span{
+    color:#111111;
+}
+
+#features{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    color:#565454;
+    text-align: center;
+    font-size:13px;
+    padding-top:20px;
+}
+
+.featuresItem{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:5px;
+}
+
+#sizeHeading{
+    font-size: 30px;
+    font-weight: 500;
+    color: #111111;
+    text-align: center;
+    padding-top:100px;
+    padding-bottom:20px;
+}
+
+#sizeOptions{
+  display: grid;
+  text-align: center;
+}
+
+.sizeBtns{
+    display:flex;
+    justify-content: space-between;
+}
+
+.sizeBtn{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: #EFE8DF;
+  color: #111111;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sizeBtn.active {
+  background: #F97316;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+

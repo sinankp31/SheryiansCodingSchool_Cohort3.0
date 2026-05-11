@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ASTRO.</title>
+</head>
+<body>
+    <nav id="navBar">
+        <div class="container">
+            <h3 id="logo">ASTRO<span>.</span></h3>
+            <ul>
+            <li>PRODUCTS</li>
+            <li>CATEGORY</li>
+            <li>ABOUT US</li>
+            <li>CONTACT</li>
+            </ul>
+        </div>
+        <div id="icons">
+            <i data-lucide="search"></i>
+            <i data-lucide="shopping-cart"></i>
+            <i data-lucide="user"></i>
+        </div>
+    </nav>
+
+    <hero id="heroSection">
+        <aside id="leftPart">
+            <span>NEW</span>
+            <h1>ASTRO<br>WINTER<br>ARMOR <span>II</span></h1>
+            <h3>$560</h3>
+            <div class="divider"></div>
+            <h5>DESCRIPTION</h5>
+            <p>
+                A next-gen cold war jacket. The<br>
+                essence of retro style and the<br>
+                resilience you need for extreme winter<br>
+                conditions. Engineered to provide<br>
+                versatile function for your winter<br>
+                wardrobe, accented with strategic<br>
+                utility details.
+            </p>
+            <div class="infoItem readMore">
+                <a href="#" id="readMoreText">
+                    READ MORE
+                   <i data-lucide="chevron-right" color="#F97316" stroke-width="2px" height="15px"></i>
+                </a>
+            </div>
+            <div class="divider"></div>
+            <button id="materialAndCareBtn">
+                <span>MATERIAL & CARE</span>
+                <i data-lucide="chevron-down" height="20px"></i>
+            </button>
+            <div class="divider"></div>
+            <button id="shippingAndReturnsBtn">
+                <span>SHIPPING & RETURNS</span>
+                <i data-lucide="chevron-down" height="20px"></i>
+            </button>
+        </aside>
+        <div id="centerPart">
+            <div id="jacketContainer"><img src="/Assignment02/hard/assets/Jacket.png" id="jacketImage"></div>
+            <div id="features">
+                <div class="featuresItem"><i data-lucide="snowflake" height="30px"></i><span>EXTREME WARMTH</span></div>
+                <div class="featuresItem"><i data-lucide="shield" height="30px"></i><span>WIND RESISTANT</span></div>
+                <div class="featuresItem"><i data-lucide="feather" height="30px"></i><span>LIGHTWEIGHT</span></div>
+            </div>
+        </div>
+        <aside id="rightPart">
+            <div id="sizePart">
+                <h3 id="sizeHeading">SIZE</h3>
+                <div id="sizeOptions">
+                    <div id="sizeBtns">
+                        <button class="sizeBtn">S</button>
+                        <button class="sizeBtn active">M</button>
+                        <button class="sizeBtn">L</button>
+                        <button class="sizeBtn">XL</button>
+                    </div>
+                    <div class="infoItem readMore">
+                        <a href="#" id="readMoreText">
+                            SIZE GUIDE
+                            <i data-lucide="chevron-right" color="#F97316" stroke-width="2px" height="15px"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </hero>
+    
+    <script>
+        lucide.createIcons();
+    </script>
+
+</body>
+</html>
