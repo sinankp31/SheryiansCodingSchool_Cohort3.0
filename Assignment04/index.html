@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <title>Deep°style</title>
+</head>
+<body>
+    <nav>
+        <h3 id="logo">Deep°style</h3>
+        <ul id="navList">
+            <li>New Arrivals</li>
+            <li>Shop</li>
+            <li>Beauty</li>
+            <li>Sale</li>
+            <li>Journal</li>
+        </ul>
+        <div id="navIcons">
+            <i data-lucide="search" style="width: 25px; height: 25px;"></i>
+            <i data-lucide="circle-plus" style="width: 25px; height: 25px;"></i>
+            <button id="cartButton"><i data-lucide="shopping-cart" color="white" style="width: 15px; height: 15px;"></i></button>
+        </div>
+    </nav>
+    <div id="flowers">
+        <img src="/Assignment04/assets/sunflower.png" id="sunFlower" class="flower">
+        <img src="/Assignment04/assets/hibiscus.png" id="hibiscus" class="flower">
+        <img src="/Assignment04/assets/yellow.png" id="yellow" class="flower">
+        <img src="/Assignment04/assets/rose.png" id="rose" class="flower">
+        <img src="/Assignment04/assets/pink.png" id="pink" class="flower">
+    </div>
+    <div id="heroSection">
+        <div id="leftMatter">
+            <h6>Summer Collection</h6>
+            <p>TRANDY AND<br> CLUSSY FOR<br> NEW SEASON</p>
+        </div>
+        <h1 id="heroHeading">Make Your Fashion Look<br>More Charming</h1>
+       <div class="exploreCircle">
+            <svg viewBox="0 0 200 200" width="200" height="200">
+                <defs>
+                    <path
+                        id="textCircle"
+                        d="M 100,100 m -70,0 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0" />
+                </defs>
+                <text class="circleText">
+                    <textPath href="#textCircle" startOffset="0%">
+                        EXPLORE MORE COLLECTION----------------
+                    </textPath>
+                </text>
+                <polygon points="92,88 92,112 112,100" class="play-icon" />
+            </svg>
+       </div>
+
+       <div id="imageCollage">
+            <div class="card card1">
+                <img src="/Assignment04/assets/picOne.png" alt="Model 1">
+            </div>
+            <div class="card card2">
+                <img src="/Assignment04/assets/picTwo.png" alt="Model 2">
+            </div>
+            <div class="card card3">
+                <img src="/Assignment04/assets/picThree.png" alt="Model 3">
+            </div>
+            <div class="card card4">
+                <img src="/Assignment04/assets/picFour.png" alt="Main Model">
+            </div>
+            <div class="card card5">
+                <img src="/Assignment04/assets/picFive.png" alt="Model 5">
+            </div>
+            <div class="card card6">
+                <img src="/Assignment04/assets/picSix.png" alt="Model 6">
+            </div>
+            <div class="card card7">
+                <img src="/Assignment04/assets/picSeven.png" alt="Model 7">
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
